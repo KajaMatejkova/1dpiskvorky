@@ -13,7 +13,7 @@ def tahhrace(m):
 		elif m[pozice] == "-" :
 			break
 
-	return(tah(m,pozice,"o"))
+	return tah(m,pozice,"o")
 
 def tahpocitace(m):
 
@@ -41,7 +41,7 @@ def tahpocitace(m):
 		else :
 			continue
 
-		return(tah(m,pozice,"x"))
+		return tah(m,pozice,"x")
 
 	while True:
 		pozice = randrange (20)
